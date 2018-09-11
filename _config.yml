@@ -1,0 +1,4 @@
+name: Heewon Yun
+baseurl: /heewonyun
+highlighter: rouge
+permalink: /blog/:year/:month/:day/:title

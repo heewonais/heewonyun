@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+  <html style="">
+    <head>
+      <title>{{ page.title }}</title>
+      <!-- link to main stylesheet -->
+      <link rel="stylesheet" type="text/css" href="../css/main_light.css">
+    </head>
+    <body>
+      <nav>
+          <ul>
+              <li><a class="home_tab" href="../">HOME</a></li>
+              <li><a class="about_tab" href="../about">ABOUT</a></li>
+              <li><a class="projects_tab" href="../projects">PROJECTS</a></li>
+              <li class="selected_tab">BLOG</li>
+          </ul>
+      </nav>
+      <div class="container">
+
+      {{ content }}
+
+      </div><!-- /.container -->
+      <footer style="width: 100%;">
+          <ul>
+              <li><a class="info" href="mailto:andreskim2018@u.northwestern.edu">email</a></li>
+              <li><a class="info" href="https://github.com/afkim14">github.com/afkim14</a></li>
+              <li><a class="info" href="https://www.instagram.com/cheonoong/">instagram</a></li>
+          </ul>
+      </footer>
+    </body>
+  </html>

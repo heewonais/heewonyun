@@ -1,0 +1,3 @@
+todo:
+-resume
+-cheatsheet: full size bg img, video, add project, add web logo
